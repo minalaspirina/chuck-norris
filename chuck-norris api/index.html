@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>chcuk norris API</title>
+	<link rel="stylesheet" href="static/css/style.css" />
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link
+		href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap"rel="stylesheet"/>
+  </head>
+	<body>
+	
+	  <div class="maxiContainer">
+		<div class="titleContainer">
+			<h1>Joke Chuck Norris</h1>
+			
+		</div>
+
+		<div class="chuckContainer">
+			<p class="chuckString"></p>
+		</div>
+
+		 <div class="chuckSelect">
+			<img src="static/images/Chuck1.png"  id="chuckImg" />
+			  <form id="chuckForm">
+				<select name="chuckTypes" id="chuckTypes">
+					<option value="" selected>Scegli Un Tipo Di Battuta</option>
+					<option value="animal">Animal</option>
+					<option value="career">Career</option>
+					<option value="celebrity">Celebrity</option>
+					<option value="dev">Dev</option>
+					<option value="explicit">Explicit</option>
+					<option value="fashion">Fashion</option>
+				    <option value="food">Food</option>
+					<option value="history">History</option>
+					<option value="money">Movie</option>
+					<option value="music">Music</option>
+					<option value="political">Political</option>
+					<option value="religion">Religion</option>
+					<option value="science">Science</option>
+					<option value="sport">Sport</option>
+					<option value="travel">Travel</option>
+					<option value="money">Money</option>
+					</select>
+
+					<button type="submit" class="loadJokeButton">Carica Battuta</button>
+
+					<div class="copyContainer">
+						<a href="#" class="copyButton">
+							<span id="copy">Copia Battuta</span>
+							<img
+								src="static/images/copia.svg"
+								class="copyImg"
+							/>
+						</a>
+					</div>
+				</form>
+			</div>
+			<script src="static/js/chuck.js"></script>
+		</div>
+	</body>
+</html>

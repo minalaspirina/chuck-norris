@@ -1,0 +1,146 @@
+* {
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-color: #f0f0c9;
+}
+
+.titleContainer {
+	text-align: center;
+}
+
+h1 {
+	margin-top: 20px;
+	font-family: "Concert One";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 52px;
+	line-height: 120%;
+	text-transform: uppercase;
+	color: #d8572a;
+	-webkit-text-stroke: 1px black;
+	position: relative;
+}
+
+.chuckContainer {
+	border-radius: 20px;
+	margin-top: 129px;
+	margin-left: auto;
+	margin-right: auto;
+	height: auto;
+	width: 364px;
+	background-color: #e1e1e1;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+}
+
+.chuckString {
+	width: 95%;
+	font-family: "Concert One";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 19px;
+	line-height: 120%;
+	text-transform: lowercase;
+	color: #000000;
+}
+
+#chuckImg {
+	margin-top: 54px;
+}
+
+.chuckSelect,form {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+#chuckTypes {
+	height: 28px;
+	width: 364px;
+	border-radius: 10px;
+	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+	text-align: center;
+	font-family: "Concert One";
+	font-style: normal;
+}
+
+option {
+	font-size: 16px;
+}
+
+.maxiContainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.loadJokeButton {
+	text-align: center;
+	width: 364px;
+	height: 48px;
+	background-color: #780116;
+	border-radius: 10px;
+	margin-top: 156px;
+	font-family: "Concert One";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 120%;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.copyContainer {
+	width: 185px;
+	height: 33px;
+	background: rgba(216, 87, 42, 0.8);
+	border-radius: 10px;
+	text-align: center;
+	margin-top: 18px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+
+#copy {
+	font-family: "Concert One";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 120%;
+	color: #ffffff;
+}
+
+.copyButton {
+	text-decoration: none;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.copyImg {
+	position: absolute;
+	right: 9px;
+}
+
+
+
+.jokeLinkContainer {
+	margin-top: 20px;
+	text-align: center;
+}
